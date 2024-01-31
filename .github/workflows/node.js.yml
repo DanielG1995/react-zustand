@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2  # Actualiza a la versión más reciente
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # Actualiza a la versión más reciente
+        uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '16' # O utiliza la versión más reciente compatible con tu proyecto
 
       - name: Install dependencies
         run: yarn install

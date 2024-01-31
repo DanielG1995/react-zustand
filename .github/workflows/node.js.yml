@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2.4.4  # Actualiza a la versión más reciente
+        uses: actions/checkout@v2  # Actualiza a la versión más reciente
 
       - name: Set up Node.js
         uses: actions/setup-node@v3  # Actualiza a la versión más reciente
